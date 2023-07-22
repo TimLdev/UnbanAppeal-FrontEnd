@@ -1,0 +1,112 @@
+body {
+  background-color: #1F2833;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.title {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 90px;
+  color: #66FCF1;
+  text-align: center;
+}
+
+.serveradress {
+  font-size: 20px;
+  font-weight: bold;
+  color: #C5C6C7;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 20px;
+  color: #C5C6C7;
+  text-align: center;
+}
+
+.form {
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 30px;
+
+  color: #66FCF1;
+}
+
+.text-input {
+  margin-top: 10px;
+  margin-bottom: 25px;
+
+  border-style: solid;
+  border-color: #45A29E;
+  border-width: 3px;
+  border-radius: 3px;
+
+  background-color: #C5C6C7;
+}
+
+.submit-button {
+  background-color: #1F2833;
+  color: #C5C6C7;
+  border-style: solid;
+  border-color: #66FCF1;
+  padding: 10px;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  background-color: #45A29E;
+  color: white;
+  transition: 0.15s;
+}
+
+.submit-button:active {
+  background-color: #45a29d81;
+}
+
+#discord, #minecraft {
+  width: 500px;
+  height: 50px;
+}
+
+#reason, #why {
+  width: 550px;
+  height: 125px;
+}
+
+@media (max-width: 620px) {
+  #discord, #minecraft {
+    width: 350px;
+    height: 40px;
+  }
+  
+  #reason, #why {
+    width: 425px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 830px) {
+  .title {
+    font-size: 55px;
+  }
+
+  .form {
+    font-size: 20px;
+  }
+}
